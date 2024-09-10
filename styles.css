@@ -97,9 +97,9 @@ h2 {
 }
 
 .box {
-        width: 300px; /* Largeur fixe pour toutes les boîtes */
-        height: 200px; /* Hauteur fixe pour toutes les boîtes */
-        background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond */
+        width: 300px;
+        height: 200px; 
+        background-color: #393E46;
         padding: 20px;
         border-radius: 10px;
         margin: 10px;
