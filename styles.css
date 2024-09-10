@@ -29,12 +29,13 @@ body {
 }
 
 .header p {
-    font-size: 12px;
+    font-size: 24px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 62px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .weather-now {
@@ -51,7 +52,8 @@ h1 {
 }
 
 h2 {
-    font-size: 56px;
+    font-size: 52px;
+    margin-right: 25px;
 }
 
 .hourly-forecast {
@@ -92,4 +94,19 @@ h2 {
 .day img {
     width: 40px;
     height: 40px;
+}
+
+.box {
+        width: 300px; /* Largeur fixe pour toutes les boîtes */
+        height: 200px; /* Hauteur fixe pour toutes les boîtes */
+        background-color: rgba(0, 0, 0, 0.7); /* Couleur de fond */
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
 }
