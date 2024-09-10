@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prévision Météo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <p>Météo</p>
+            <p><div id="current_date">
+                <script>
+                    document.getElementById("current_date").innerHTML = Date();
+                </script>
+            </div></p>
+        </header>
+        <main>
+            <h1>Paris</h1>
+            <div class="weather-now">
+                <img src="img/misoleilminuage.png" alt="Soleil avec des nuages" class="weather-icon">
+                <h2>15°C</h2>
+                <p>Partiellement ensoleillé</p>
+            </div>
+            <div class="hourly-forecast">
+                <div class="hour">
+                    <p>06:00</p>
+                    <img src="img/coucherdesoleil.png" alt="Lever du soleil">
+                </div>
+                <div class="hour">
+                    <p>12:00</p>
+                    <img src="img/soleil.png" alt="Plein soleil">
+                </div>
+                <div class="hour">
+                    <p>16:00</p>
+                    <img src="img/misoleilminuage.png" alt="Plein soleil">
+                </div>
+                <div class="hour">
+                    <p>20:00</p>
+                    <img src="img/coucherdesoleil.png" alt="Coucher de soleil">
+                </div>
+                <div class="hour">
+                    <p>00:00</p>
+                    <img src="img/nuit.png" alt="Nuit">
+                </div>
+            </div>
+            <div class="weekly-forecast">
+                <div class="day">
+                    <p>11/09</p>
+                    <img src="img/pluvieux.png" alt="Pluvieux">
+                </div>
+                <div class="day">
+                    <p>12/09</p>
+                    <img src="img/misoleilminuage.png" alt="Soleil avec nuage">
+                </div>
+                <div class="day">
+                    <p>13/09</p>
+                    <img src="img/soleil.png" alt="Soleil">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
